@@ -1,0 +1,10 @@
+{
+  "default": true,
+  // Long lines are fine in prose and tables.
+  "MD013": false,
+  // The README uses centred HTML for the title block and badges.
+  "MD033": false,
+  "MD041": false,
+  // Pipe alignment in wide tables is cosmetic.
+  "MD060": false
+}
