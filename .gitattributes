@@ -1,0 +1,11 @@
+# Normalise text files to LF in the repository.
+* text=auto eol=lf
+
+# Font files are binary: never diff, merge or convert line endings.
+*.otf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+
+# Generated file: collapse in pull-request diffs.
+fonts/manifest.json linguist-generated=true

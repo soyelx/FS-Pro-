@@ -1,0 +1,72 @@
+# ---------------------------------------------------------------------------
+# Secrets & local configuration
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# ---------------------------------------------------------------------------
+# Node.js (markdownlint and other optional JS tooling)
+# ---------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.pnpm-store/
+
+# ---------------------------------------------------------------------------
+# Build output & caches
+# ---------------------------------------------------------------------------
+dist/
+build/
+out/
+.cache/
+tmp/
+*.log
+
+# Generated web-font conversions are build artefacts, not sources.
+*.woff
+*.woff2
+
+# ---------------------------------------------------------------------------
+# OS & editor artefacts
+# ---------------------------------------------------------------------------
+.DS_Store
+._*
+.AppleDouble
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*~
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/extensions.json
